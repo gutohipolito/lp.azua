@@ -27,6 +27,7 @@ export default function Footer() {
                     <a href="https://azua.com.br/policies/privacy-policy" target="_blank" rel="noopener noreferrer" className="hover:text-azua-gold transition-colors">Política de Privacidade</a>
                     <a href="https://azua.com.br/policies/terms-of-service" target="_blank" rel="noopener noreferrer" className="hover:text-azua-gold transition-colors">Termos de Uso</a>
                     <a href="https://azua.com.br/pages/sobre-a-zua" target="_blank" rel="noopener noreferrer" className="hover:text-azua-gold transition-colors">Sobre Nós</a>
+                    <a href="https://azua.com.br/policies/legal-notice" target="_blank" rel="noopener noreferrer" className="hover:text-azua-gold transition-colors">Aviso Legal</a>
                     <button onClick={() => setIsContactOpen(true)} className="hover:text-azua-gold transition-colors">Contato</button>
                 </div>
 
