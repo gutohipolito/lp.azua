@@ -20,7 +20,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/ 
-          server-dir: public_html/ # ou leave empty '/' se for na raiz
+          server-dir: ./ # Deploy directly to the FTP root
           exclude: |
             **/.git*
             **/.git*/**
