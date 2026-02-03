@@ -53,7 +53,7 @@ export default function BlockSolution() {
                             src="https://www.youtube.com/embed/VCD0o7RlT_M?si=azua-landing"
                             title="Camiseta Azua em movimento"
                             frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; compute-pressure"
                             allowFullScreen
                         ></iframe>
                     </div>
