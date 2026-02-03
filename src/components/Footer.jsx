@@ -28,7 +28,25 @@ export default function Footer() {
                     <a href="https://azua.com.br/policies/terms-of-service" target="_blank" rel="noopener noreferrer" className="hover:text-azua-gold transition-colors">Termos de Uso</a>
                     <a href="https://azua.com.br/pages/sobre-a-zua" target="_blank" rel="noopener noreferrer" className="hover:text-azua-gold transition-colors">Sobre Nós</a>
                     <a href="https://azua.com.br/policies/legal-notice" target="_blank" rel="noopener noreferrer" className="hover:text-azua-gold transition-colors">Aviso Legal</a>
-                    <button onClick={() => setIsContactOpen(true)} className="hover:text-azua-gold transition-colors">Contato</button>
+                </div>
+
+                {/* Static Contact Info for Google Ads Compliance */}
+                <div className="flex flex-col md:flex-row justify-center items-center gap-8 mb-12 text-sm text-gray-400 text-center">
+                    <div>
+                        <span className="block text-gray-600 text-xs uppercase tracking-wider mb-1">Endereço</span>
+                        <p>Rua Faustino Gomes 148, Centro<br />Farroupilha - RS</p>
+                    </div>
+                    <div>
+                        <span className="block text-gray-600 text-xs uppercase tracking-wider mb-1">Contato</span>
+                        <p className="flex flex-col gap-1">
+                            <a href="mailto:contato@azua.com.br" className="hover:text-white transition-colors">contato@azua.com.br</a>
+                            <a href="tel:+5554997074695" className="hover:text-white transition-colors">(54) 99707-4695</a>
+                        </p>
+                    </div>
+                    <div>
+                        <span className="block text-gray-600 text-xs uppercase tracking-wider mb-1">Horário</span>
+                        <p>Segunda à Sexta<br />09:00 às 18:00</p>
+                    </div>
                 </div>
 
                 <div className="pt-8 border-t border-white/5 text-center text-gray-500 text-xs uppercase tracking-wider">
