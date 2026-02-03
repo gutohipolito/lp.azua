@@ -1,5 +1,5 @@
 import { Target, Lightbulb, Star, ArrowRight } from 'lucide-react'
-import aboutImg from '../../assets/about_building.jpg'
+import aboutImg from '../../assets/about_building_opt.jpg'
 
 export default function BlockAbout() {
     return (

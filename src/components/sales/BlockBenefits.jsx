@@ -1,9 +1,9 @@
 import { useRef } from 'react'
 import { motion } from 'framer-motion'
 import { CheckCircle2, Shield } from 'lucide-react'
-import img1 from '../../assets/gallery/gallery_1.jpg'
-import img2 from '../../assets/gallery/gallery_2.jpg'
-import img3 from '../../assets/gallery/gallery_3.jpg'
+import img1 from '../../assets/gallery/gallery_1_opt.jpg'
+import img2 from '../../assets/gallery/gallery_2_opt.jpg'
+import img3 from '../../assets/gallery/gallery_3_opt.jpg'
 
 const images = [img1, img2, img3]
 

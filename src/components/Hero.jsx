@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import heroImg from '../assets/hero_tshirt_v3.png'
+import heroImg from '../assets/hero_tshirt_v3.jpg'
 
 export default function Hero() {
     return (
