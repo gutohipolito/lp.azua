@@ -2,7 +2,7 @@ import { Play, Check, Search } from 'lucide-react'
 
 export default function BlockProof() {
     return (
-        <section className="py-24 px-6 bg-level-5 text-white relative min-h-screen flex flex-col justify-center overflow-hidden">
+        <section className="py-12 md:py-16 px-6 bg-level-5 text-white relative flex flex-col justify-center overflow-hidden">
 
             {/* Background Blob */}
             <div className="absolute top-0 right-0 w-96 h-96 bg-azua-gold/5 rounded-full blur-[120px] pointer-events-none" />
@@ -13,7 +13,7 @@ export default function BlockProof() {
             <div className="container mx-auto max-w-6xl relative z-10">
 
                 {/* Top Section: Title (Left) + Video (Right) */}
-                <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+                <div className="grid md:grid-cols-2 gap-12 items-center mb-10">
 
                     {/* Left: Header */}
                     <div className="text-center md:text-left">
