@@ -22,9 +22,9 @@ export default function BlockProof() {
                             Prova no uso real
                         </span>
                         <div className="max-w-xl mx-auto md:mx-0">
-                            <p className="text-3xl md:text-5xl font-black text-white mb-6 tracking-tight leading-tight">
+                            <h2 className="text-3xl md:text-5xl font-black text-white mb-6 tracking-tight leading-tight">
                                 Chega de camiseta que desbota e fica com bolinhas.
-                            </p>
+                            </h2>
                             <p className="text-lg md:text-2xl font-light text-gray-300 leading-relaxed">
                                 Algodão egípcio com sensação premium: macia, caimento alinhado e durável. <br className="hidden md:block" />
                                 A camiseta básica que se adapta perfeitamente a um look social, garantindo um estilo refinado.

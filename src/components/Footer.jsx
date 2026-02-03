@@ -11,11 +11,6 @@ export default function Footer() {
 
             <div className="container mx-auto px-6">
                 <div className="flex flex-col items-center text-center mb-12">
-                    <img
-                        src="https://cdn.shopify.com/s/files/1/0892/6193/2854/files/Logo_Azua_branco.png"
-                        alt="Azua Logo"
-                        className="w-24 mb-6"
-                    />
                     <p className="max-w-2xl text-lg font-medium bg-gradient-to-r from-gray-200 via-gray-400 to-gray-500 bg-clip-text text-transparent">
                         A essência da sofisticação e a força da inovação. <br className="hidden md:block" />
                         Bem-vindo à nova era da moda minimalista. Um movimento que une design, tecnologia e qualidade.

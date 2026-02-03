@@ -349,7 +349,7 @@ export default function Hero() {
 
                         <img
                             src={heroImg}
-                            alt="Camiseta Premium Azua"
+                            alt="Camiseta Premium Azua - Algodão Egípcio e Modelagem Slim"
                             className="azua-product-img relative z-20"
                         />
                     </div>
