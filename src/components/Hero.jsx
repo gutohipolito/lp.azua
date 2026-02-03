@@ -33,7 +33,7 @@ export default function Hero() {
                 /* Hero Wrapper */
                 .azua-hero-wrapper {
                     position: relative;
-                    min-height: 100vh;
+                    min-height: 75vh; /* Further reduced from 85vh */
                     width: 100%;
                     display: flex;
                     align-items: center;
@@ -41,8 +41,8 @@ export default function Hero() {
                     overflow: hidden;
                     background-color: #0a0a0a;
                     background: linear-gradient(to bottom, #0a0a0a, #0a0a0a, #111111);
-                    padding-top: 6rem;
-                    padding-bottom: 3rem;
+                    padding-top: 4rem; /* Further reduced from 5rem */
+                    padding-bottom: 2rem;
                     font-family: 'Inter', sans-serif;
                 }
                 /* Background Blob */

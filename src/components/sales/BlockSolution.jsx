@@ -2,7 +2,7 @@ import { Play, Check, Sparkles } from 'lucide-react'
 
 export default function BlockSolution() {
     return (
-        <section className="py-10 px-6 bg-level-3 text-white overflow-hidden relative min-h-[60vh] md:min-h-screen flex items-center">
+        <section className="py-10 px-6 bg-level-3 text-white overflow-hidden relative min-h-[50vh] flex items-center">
             {/* Background glow */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-azua-gold/5 rounded-full blur-[80px] pointer-events-none" />
 
