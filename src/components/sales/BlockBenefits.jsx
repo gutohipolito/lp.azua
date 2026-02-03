@@ -61,6 +61,7 @@ export default function BlockBenefits() {
                                         alt={`Gallery ${i + 1}`}
                                         className="w-full h-full object-cover animate-slow-zoom"
                                         style={{ animationDelay: `${i * 2}s` }}
+                                        loading="lazy"
                                     />
                                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                                 </div>
@@ -81,6 +82,7 @@ export default function BlockBenefits() {
                                         alt={`Gallery ${i + 1}`}
                                         className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-all duration-700 ease-out group-hover:scale-110 animate-slow-zoom"
                                         style={{ animationDelay: `${i * 3}s` }}
+                                        loading="lazy"
                                     />
                                     <div className="absolute inset-0 ring-1 ring-white/10 pointer-events-none rounded-2xl group-hover:ring-white/30 transition-all duration-500"></div>
                                     <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500"></div>

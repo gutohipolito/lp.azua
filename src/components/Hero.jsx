@@ -256,6 +256,7 @@ export default function Hero() {
                         loop
                         muted
                         playsInline
+                        poster={heroImg} // Use the product image as a temporary poster to avoid black flash
                     />
                 </div>
 
@@ -351,6 +352,9 @@ export default function Hero() {
                             src={heroImg}
                             alt="Camiseta Premium Azua - Algodão Egípcio e Modelagem Slim"
                             className="azua-product-img relative z-20"
+                            fetchpriority="high"
+                            width="448"
+                            height="560" // Explicit dimensions for 28rem max-width
                         />
                     </div>
                 </div>

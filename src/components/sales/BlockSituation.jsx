@@ -70,6 +70,7 @@ export default function BlockSituation() {
                     muted
                     playsInline
                     className="w-full h-full object-cover"
+                    poster="https://lp.azua.com.br/hero_tshirt_v3.png" // Using the main product URL as poster
                 />
             </div>
 

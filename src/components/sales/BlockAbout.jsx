@@ -37,8 +37,11 @@ export default function BlockAbout() {
                     <div className="relative min-h-[500px] md:min-h-0 h-full">
                         <img
                             src={aboutImg}
-                            alt="Edifício Azua 1985"
+                            alt="Edifício Azua 1985 - Tradição Têxtil"
                             className="absolute inset-0 w-full h-full object-cover grayscale md:grayscale-0 hover:grayscale-0 transition-all duration-700"
+                            loading="lazy"
+                            width="800"
+                            height="600"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
                         <div className="absolute bottom-8 left-8 right-8">
